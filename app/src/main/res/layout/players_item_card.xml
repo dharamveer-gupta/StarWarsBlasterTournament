@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:padding="11dp">
+
+    <ImageView
+        android:id="@+id/imgPlayerAvatar"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:contentDescription="@null"
+        tools:src="@drawable/ic_launcher_foreground"/>
+
+    <TextView
+        android:id="@+id/txtPlayerName"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        tools:text="Darth Vader"
+        android:textSize="22sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txtPlayerScore"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="22"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

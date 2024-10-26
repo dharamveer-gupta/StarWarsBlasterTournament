@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StarWarsBlasterTournament</string>
+    <string name="str_home_screen_title">Star Wars Blaster Tournament</string>
+    <string name="str_points_table">Points Table</string>
+    <string name="str_player_name">$1%s</string>
+    <string name="str_matches">Matches</string>
+</resources>
